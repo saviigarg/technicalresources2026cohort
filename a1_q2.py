@@ -1,0 +1,6 @@
+num=int(input("Enter the marks in the range 0-100: "))
+if(num>0 and num<=60): print("Below par")
+elif(num>60 and num<=70): print("Meets expectations")
+elif(num>70 and num<=80): print("Fair")
+elif(num>80 and num<=90): print("Good")
+elif(num>90 and num<=100): print("Excellent")
